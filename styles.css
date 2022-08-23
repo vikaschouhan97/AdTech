@@ -1,0 +1,29 @@
+
+body {
+    background-color: rgb(199, 216, 216);
+}
+
+.container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.buttons button{
+    margin: 20px 10px;
+    width: auto;
+}
+
+.display-first {
+    margin: 100px auto;
+}
+
+input {
+    width: 30%;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+    input {
+      width: 50%;
+    }
+  }
